@@ -1,13 +1,14 @@
-package Synchronized;
+package leetcode;
 
 /**
- * @Classname test
+ * @Classname T155最小栈
  * @Description TODO
- * @Date 2020/5/20 10:11
+ * @Date 2020/5/12 9:00
  * @Author ALexNi
  */
-public class test {
+public class T155最小栈 {
     public static void main(String[] args) {
 
     }
+
 }
