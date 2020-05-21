@@ -1,6 +1,6 @@
-package 责任链模式.FilterImpl;
+package 设计模式.责任链模式.FilterImpl;
 
-import 责任链模式.Filter;
+import 设计模式.责任链模式.Filter;
 
 import java.util.Set;
 

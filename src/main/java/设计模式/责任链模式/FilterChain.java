@@ -1,7 +1,7 @@
-package 责任链模式;
+package 设计模式.责任链模式;
 
-import 责任链模式.FilterImpl.AppleFilter;
-import 责任链模式.FilterImpl.BananaFilter;
+import 设计模式.责任链模式.FilterImpl.AppleFilter;
+import 设计模式.责任链模式.FilterImpl.BananaFilter;
 
 import java.util.ArrayList;
 import java.util.List;
