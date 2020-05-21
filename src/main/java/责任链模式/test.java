@@ -14,7 +14,7 @@ public class test {
         Set<String> strings = new HashSet<>();;
         strings.add("apple");
         strings.add("banana");
-        strings.add("org");
+        strings.add("orange");
         FilterChain chain = new FilterChain();
         chain.processData(strings);
         System.out.println(strings.toString());
