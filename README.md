@@ -1,2 +1,2 @@
 # keepLearning
-![image](http://114.55.94.250:9090/alex/%E4%BA%BA%E7%94%9F%E5%95%8A.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minioadmin%2F20200522%2F%2Fs3%2Faws4_request&X-Amz-Date=20200522T033354Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=543bdee6c6e5f6c7213b0e8f78f9223790439af1008a52b9f5f0f0dca946a036)
+![image](https://alex-1300169762.cos.ap-chengdu.myqcloud.com/ndb/%E4%BA%BA%E7%94%9F%E5%95%8A.png)
