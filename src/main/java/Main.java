@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 
-public class Demo {
+public class Main {
 
     public static void main(String[] args) throws Exception {
         Integer a = 1, b = 2;
