@@ -13,28 +13,9 @@ import java.util.concurrent.Future;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        Integer a = 1, b = 2;
-        swap(a, b);
-        int c = 134, d = 2;
-        swap(c,d);
-        int e = c;
-        c= d;
-        d=e;
-        System.out.println("after a=" + a + ", b=" + b);
-        System.out.println("after c=" + c + ", d=" + d);
+        System.out.println("创建一个新的分支");
     }
 
-    public static void swap(Integer a, Integer b) throws Exception {
-        Integer temp;
-        temp = a;
-        a = b;
-        b = temp;
-    }
-    public static void swap(int a, int b){
-        int temp;
-        temp = a;
-        a = b;
-        b = temp;
-    }
+
 
 }
