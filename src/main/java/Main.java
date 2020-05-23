@@ -14,8 +14,6 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         System.out.println("创建一个新的分支");
+        System.out.println("devlalalal");
     }
-
-
-
 }
