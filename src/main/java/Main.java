@@ -10,6 +10,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 
+/**
+ * 这段代码在Java8中能正常运行，但是会在Java13中会抛出异常
+ */
 public class Main {
 
     public static void main(String[] args) throws Exception {
