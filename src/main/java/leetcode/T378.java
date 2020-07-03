@@ -36,7 +36,7 @@ public class T378 {
 
     }
     public int kthSmallest(int[][] matrix, int k) {
-
+        return 0;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
