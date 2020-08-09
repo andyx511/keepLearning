@@ -21,18 +21,10 @@ public class 选择 {
             }
         }
     }
-    public static void swap(int a,int b){
-        int t = a;
-        a = b;
-        b = t;
 
-    }
     public static void main(String[] args){
         int []arr = {9,45,7,6,65,4,3,2,1};
         sort(arr);
-        int a = 1,b = 2;
-        swap(a,b);
-        System.out.println("a=" + a + ",b=" + b);
         System.out.println(Arrays.toString(arr));
     }
 }
