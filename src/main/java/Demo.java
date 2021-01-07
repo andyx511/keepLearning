@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * projectName：keepLearning
  * name：Demo
@@ -11,12 +14,18 @@ abstract class Person {
 
 public class Demo {
     public static void main(String[] args) {
-        Person p = new Person() {
-            public void eat() {
-                System.out.println("eat something");
-            }
-        };
-        p.eat();
+        System.out.println("开始");
+       print("a");
+       print("b");
 
+    }
+    public static String print(String a){
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(a);
+        return a;
     }
 }
