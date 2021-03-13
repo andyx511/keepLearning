@@ -1,6 +1,10 @@
 package cmd;
 
+import AOP.Actor;
+
 import java.io.IOException;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @Classname la
@@ -10,7 +14,14 @@ import java.io.IOException;
  */
 public class la {
     public static void main(String[] args) throws IOException {
-        String cmd = "java -jar adder-db-export-1.0.jar";
-        Process process = Runtime.getRuntime().exec(cmd);
+        Set<User> set;
+        set = new HashSet<>();
+        User a = new User("a");
+        set.add(a);
+        User b = new User("b");
+        set.add(b);
+        System.out.println(set);
+        a = null;
+        System.out.println(set);
     }
 }
